@@ -9,6 +9,12 @@ const {default: U8} = require ( '../dist' );
 
 describe ( 'Uint8 Encoding', it => {
 
+  it ( 'returns an actual Uint8Array', t => {
+
+    t.is ( U8.encode ( 'foo' ).constructor, Uint8Array );
+
+  });
+
   it ( 'works with fc-generated codepoints', t => {
 
     const assert = str => t.is ( U8.decode ( U8.encode ( str ) ), str );
