@@ -1,9 +1,9 @@
 
 /* IMPORT */
 
-const {describe} = require ( 'fava' );
-const fc = require ( 'fast-check' );
-const {default: U8} = require ( '../dist' );
+import fc from 'fast-check';
+import {describe} from 'fava';
+import U8 from '../dist/index.js';
 
 /* MAIN */
 
