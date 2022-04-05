@@ -2,7 +2,7 @@
   "name": "uint8-encoding",
   "repository": "github:fabiospampinato/uint8-encoding",
   "description": "Uint8 encoding, a simple way to convert strings to Uint8Arrays and vice versa.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
